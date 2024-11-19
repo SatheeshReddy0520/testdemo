@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-10-15T09:58:55 IST" name="Suite" finished-at="2024-10-15T09:59:33 IST" duration-ms="38044">
+    <groups>
+      <group name="regression">
+        <method signature="class1.Logout()[pri:6, instance:Groupingtests.class1@5158b42f]" name="Logout" class="Groupingtests.class1"/>
+        <method signature="class1.click()[pri:3, instance:Groupingtests.class1@5158b42f]" name="click" class="Groupingtests.class1"/>
+        <method signature="class1.click2()[pri:4, instance:Groupingtests.class1@5158b42f]" name="click2" class="Groupingtests.class1"/>
+        <method signature="class1.click3()[pri:5, instance:Groupingtests.class1@5158b42f]" name="click3" class="Groupingtests.class1"/>
+      </group> <!-- regression -->
+      <group name="sanity">
+        <method signature="class1.Logout()[pri:6, instance:Groupingtests.class1@5158b42f]" name="Logout" class="Groupingtests.class1"/>
+        <method signature="class1.login()[pri:2, instance:Groupingtests.class1@5158b42f]" name="login" class="Groupingtests.class1"/>
+        <method signature="class1.openapp()[pri:1, instance:Groupingtests.class1@5158b42f]" name="openapp" class="Groupingtests.class1"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test started-at="2024-10-15T09:58:55 IST" name="Test" finished-at="2024-10-15T09:59:33 IST" duration-ms="38044">
+      <class name="Groupingtests.class1">
+        <test-method signature="openapp()[pri:1, instance:Groupingtests.class1@5158b42f]" started-at="2024-10-15T09:58:55 IST" name="openapp" finished-at="2024-10-15T09:59:08 IST" duration-ms="13013" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openapp -->
+        <test-method signature="login()[pri:2, instance:Groupingtests.class1@5158b42f]" started-at="2024-10-15T09:59:08 IST" name="login" finished-at="2024-10-15T09:59:09 IST" duration-ms="1091" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="click()[pri:3, instance:Groupingtests.class1@5158b42f]" started-at="2024-10-15T09:59:09 IST" name="click" finished-at="2024-10-15T09:59:12 IST" duration-ms="3114" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- click -->
+        <test-method signature="click2()[pri:4, instance:Groupingtests.class1@5158b42f]" started-at="2024-10-15T09:59:12 IST" name="click2" finished-at="2024-10-15T09:59:15 IST" duration-ms="3038" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- click2 -->
+        <test-method signature="click3()[pri:5, instance:Groupingtests.class1@5158b42f]" started-at="2024-10-15T09:59:15 IST" name="click3" finished-at="2024-10-15T09:59:18 IST" duration-ms="3019" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- click3 -->
+        <test-method signature="Logout()[pri:6, instance:Groupingtests.class1@5158b42f]" started-at="2024-10-15T09:59:18 IST" name="Logout" finished-at="2024-10-15T09:59:33 IST" duration-ms="14645" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logout -->
+      </class> <!-- Groupingtests.class1 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
